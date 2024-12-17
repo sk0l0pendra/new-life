@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>LIPSY</title>
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Створити Аккаунт</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"> 
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a href="#" class="icon"> 
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="icon"> 
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="icon"> 
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <span>використайте свою елекронну пошту для реєстрації</span>
+                <input type="email"
+                placeholder="Електронна пошта">
+                <input type="password"
+                placeholder="Пароль">
+                <button>Реєстрація</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Увійти в обліковий запис</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"> 
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a href="#" class="icon"> 
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="icon"> 
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="icon"> 
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <span>використайте свою елекронну пошту і пароль для входу</span>
+                <input type="email"
+                placeholder="Електронна пошта">
+                <input type="password"
+                placeholder="Пароль">
+                <a href="#">Забули пароль?</a>
+                <button>Вхід</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Раді знову тебе бачити!</h1>
+                    <p>Введіть дані вашого облікового запису</p>
+                    <button class="hidden" id="login">Увійти</button>
+               </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Ласкаво просимо!</h1>
+                    <p>Введіть дані для реєстрації вашого облікового запису</p>
+                    <button class="hidden" id="register">Зареєструватися</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
